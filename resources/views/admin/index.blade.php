@@ -596,17 +596,30 @@
                 </div>
               </div>
             </div>
+            <!-- Row for Grafik Active Users and Statistik Pengunjung -->
             <div class="row">
-              <div class="col-md-12">
+              <!-- Grafik Active Users -->
+              <div class="col-md-6">
+                <div class="card card-round">
+                  <div class="card-body pb-0">
+                    <div class="h1 fw-bold float-end text-primary">+5%</div>
+                    <h2 class="mb-2">17</h2>
+                    <p class="text-muted">Users online</p>
+                    <div class="pull-in sparkline-fix">
+                      <div id="lineChart"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Statistik Pengunjung -->
+              <div class="col-md-6">
                 <div class="card card-round">
                   <div class="card-header">
                     <div class="card-head-row">
                       <div class="card-title">Statistik Pengunjung</div>
                       <div class="card-tools">
-                        <a
-                          href="#"
-                          class="btn btn-label-success btn-round btn-sm me-2"
-                        >
+                        <a href="#" class="btn btn-label-success btn-round btn-sm me-2">
                           <span class="btn-label">
                             <i class="fa fa-pencil"></i>
                           </span>
