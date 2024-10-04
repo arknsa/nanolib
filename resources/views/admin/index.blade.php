@@ -596,10 +596,9 @@
                 </div>
               </div>
             </div>
-            <!-- Row for Grafik Active Users and Statistik Pengunjung -->
+            <!-- Active Users -->
             <div class="row">
-              <!-- Grafik Active Users -->
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="card card-round">
                   <div class="card-body pb-0">
                     <div class="h1 fw-bold float-end text-primary">+5%</div>
@@ -611,9 +610,11 @@
                   </div>
                 </div>
               </div>
+            </div>
 
-              <!-- Statistik Pengunjung -->
-              <div class="col-md-6">
+            <!-- Statistik Pengunjung -->
+            <div class="row">
+              <div class="col-md-12">
                 <div class="card card-round">
                   <div class="card-header">
                     <div class="card-head-row">
